@@ -148,6 +148,10 @@ a:link {
 }
 
 @media screen and (max-width: 500px) {
+  #top {
+    background-attachment: scroll;
+    -webkit-background-attachment: scroll;
+  }
   #top h1 {
     font-size: 50px;
   }
