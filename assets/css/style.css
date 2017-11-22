@@ -35,8 +35,8 @@
 }
 
 ::-moz-selection {
-  background: #f2c2c9;
-  color: #a4003a;
+  background: whitesmoke;
+  color: black;
   text-shadow: none;
 }
 
@@ -159,49 +159,6 @@ a:link {
   font-size: 12px;
 }
 
-/* Portfolio */
-#portfolio img {
-  width: 550px;
-}
-
-.gallery img:hover {
-  opacity: 0.4;
-}
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* Social */
-#social {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #f2f2f2;
-}
-
-#social i {
-  font-size: 40px;
-  color: #4a4a4a
-}
-
-#social i:hover {
-  color: #159b81
-}
-
-/* Bottom */
-
-#bottom {
-  padding-top: 70px;
-  padding-bottom: 50px;
-  background-color: #2f2f2f;
-}
-
-#bottom p {
-  color: #f2f2f2;
-  /*margin-left: 10px;*/
-}
-
 /* Experience */
 #experience h4 {
   font-family: 'web_serveroffregular', arial, sans-serif;
@@ -239,4 +196,52 @@ h6 {
   width: 80px;
   margin: 20px;
   display: inline-block;
+  transition: 0.4s;
+}
+
+#skills img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.4s;
+}
+
+/* Portfolio */
+#portfolio img {
+  width: 550px;
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Social */
+#social {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+#social i {
+  font-size: 40px;
+  color: #4a4a4a
+}
+
+#social i:hover {
+  color: #159b81
+}
+
+/* Bottom */
+#bottom {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #2f2f2f;
+}
+
+#bottom p {
+  color: #f2f2f2;
+  /*margin-left: 10px;*/
 }
